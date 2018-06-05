@@ -13,5 +13,5 @@ for($m = 0; $m < $j; $m++) {
     for ($k = 0; $k < strlen( $str ); $k++)
         for ($n = 0; $n < $i; $n++)
             echo $str[ $k ];
-    echo "\n";
+    echo PHP_EOL;
 }
